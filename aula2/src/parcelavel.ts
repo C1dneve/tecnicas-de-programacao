@@ -1,3 +1,3 @@
 export default interface Parcelavel{// Interface que define o contrato para objetos que podem ser parcelados
-    fazerPagamentoParcelado(valor: number, parcelas: number): string;
+    fazerPagamentoParcelado(valor: number, parcelas: number): string; //polimorphism pq cada classe que implementar essa interface vai ter uma implementação diferente desse método
 }
